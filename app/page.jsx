@@ -3,12 +3,13 @@ import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 import Socials from "@/components/ui/Socials";
 import Photo from "@/components/Photo";
+import Stats from "@/components/Stats";
 
 const Home = () => {
   return (
     <section className="h-full">
       <div className="max-w-screen-lg container mx-auto h-full">
-        <div className="flex flex-col xl:flex-row  justify-between xl:pt-8 xl:pb-24">
+        <div className="flex flex-col xl:flex-row  justify-between xl:pt-8 xl:pb-18">
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Web & Software Developer</span>
             <h1 className="h2 mb-6">
@@ -41,6 +42,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Stats />
     </section>
   );
 };
