@@ -1,11 +1,14 @@
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import PageTransitions from "@/components/PageTransitions";
+import StairTransition from "@/components/StairTransition";
 
 const jetbrainsMono = JetBrains_Mono({
-  subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
   variable: "--font-JetBrainsMono",
- });
+});
 
 export const metadata = {
   title: "Asfand's Portfolio",
@@ -17,7 +20,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={jetbrainsMono.variable}>
         <Header />
-        {children}</body>
+        <StairTransition />
+        <PageTransitions>{children}</PageTransitions>
+      </body>
     </html>
   );
 }
