@@ -15,7 +15,7 @@ export const metadata = {
   description: "Jack of all trades!",
 };
 
-export default function RootLayout({ children }) {
+const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body className={jetbrainsMono.variable}>
@@ -25,4 +25,6 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;

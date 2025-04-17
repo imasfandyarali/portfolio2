@@ -6,19 +6,19 @@ import { BiLogoNetlify } from "react-icons/bi";
 const socials = [
   {
     icon: <FaGithub />,
-    path: "https://github.com/yourusername",
+    path: "https://github.com/imasfandyarali",
   },
   {
     icon: <FaLinkedin />,
-    path: "https://linkedin.com/in/yourusername",
+    path: "https://www.linkedin.com/in/iasfandyarali/",
   },
   {
     icon: <FaYoutube />,
-    path: "https://youtube.com/@yourusername",
+    path: "https://www.youtube.com/@asfandanimates",
   },
   {
     icon: <BiLogoNetlify />,
-    path: "https://youtube.com/@yourusername",
+    path: "#",
   },
 ];
 
