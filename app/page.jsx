@@ -11,14 +11,16 @@ const Home = () => {
       <div className="max-w-screen-lg container mx-auto h-full">
         <div className="flex flex-col xl:flex-row  justify-between xl:pt-8 xl:pb-18">
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Web & Software Developer</span>
+            <span className="text-xl">Freelance Creative Technologist</span>
             <h1 className="h2 mb-6">
               Hello I&apos;m <br />
               <span className="text-accent">Asfandyar Ali</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and I am
-              proficient in various programming languages and technologies.
+              A jack-of-all-trades (but master of fun), I speak Python’s slang
+              and CSS puns. From data’s deep seas to pixels that play, I
+              automate chaos in artful ways— where spreadsheets sing and
+              animations sway.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button

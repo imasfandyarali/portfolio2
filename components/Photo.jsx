@@ -28,7 +28,7 @@ const Photo = () => {
             quality={100}
             fill
             alt=""
-            className="object-cover scale-90 border-2 border-accent mt-8 "
+            className="object-cover scale-90 border-2 border-accent mt-8 rounded-md "
           />
         </motion.div>
         {/* circle - to see circle remove opacity-0 class*/}
